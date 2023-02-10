@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <!-- My name is Amaldeep Patra. -->
-    <div class="nav">
-        <div class="nitem n1">Gourmet au Catering</div>
-        <div class="nitem n2">About</div>
-        <div class="nitem n3">Menu</div>
-        <div class="nitem n4">Contact</div>
-    </div>
+<body id="home">
+    <nav class="nav">
+        <button class="nitem n1"> <a href="#home" style="text-decoration: none;">Gourmet au Catering</a> </button>
+        <button class="nitem n2"> <a href="#about" style="text-decoration: none;">About</a></button>
+        <button class="nitem n3"> <a href="#menu" style="text-decoration: none;">Menu</a></button>
+        <button class="nitem n4"> <a href="#contact" style="text-decoration: none;">Contact</a></button>
+    </nav>
     <div class="ham-container">
         <img src="images/hamburger.jpg" alt="" srcset="" class="hamburger" height="800px" width="1600px">
         <div class="hamtext">Le Catering</div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="plates">
             <img src="images/tablesetting2.jpg" alt="" width="600px" height="750px">
         </div>
@@ -35,7 +36,7 @@
 
     <hr>
 
-    <div class="menu">
+    <div class="menu" id="menu">
         <div class="menu-text">
             <h1 class="sh1">Our Menu</h1>
             <h4>Bread Basket</h4>
@@ -56,7 +57,7 @@
 
     <hr>
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <form>
             <h1 class="th1">Contact</h1>
             <p style="margin:15px 0px;">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
@@ -72,6 +73,10 @@
 
     <footer>
         <p>Powered by Patra</p>
+        <a href="https://github.com/amaldeeppatra"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/amaldeep-patra-246bb8247/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/AmaldeepP"><i class="fa fa-twitter"></i></a>
+        <a href="mailto:amaldeeppatra21@gmail.com"><i class="fa fa-envelope"></i></a>
     </footer>
 
     <script src="index.js"></script>

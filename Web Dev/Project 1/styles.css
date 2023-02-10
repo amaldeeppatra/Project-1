@@ -5,21 +5,24 @@ html, body{
 
 .nav{
     display: flex;
+    flex-wrap: wrap;
     height: 5vh;
-    /* border: 2px solid grey; */
-    justify-content: space-between;
+    width: 100%;
     padding: 10px;
-    margin: 2px;
-    box-shadow: 0px 5px rgb(184, 182, 182);
-    /* box-sizing: border-box; */
-    /* position: fixed; */
-    /* z-index: 5; */
+    box-shadow: 0 5px 5px 0px #c5c5c5;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    justify-content: space-between;
 }
 
 .nitem{
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 3px;
+    background-color: white;
+    font-size: medium;
 }
 
 .ham-container{
@@ -50,6 +53,7 @@ span{
 
 .about{
     display: flex;
+    /* flex-wrap: wrap; */
     /* padding-left: 18%;
     padding-right: 18%; */
     padding: 64px 200px;
@@ -88,6 +92,7 @@ hr{
 
 .menu{
     display: flex;
+    flex-wrap: wrap;
     padding: 64px 0px;
     justify-content: center;
 }
@@ -144,8 +149,39 @@ button{
     padding: 8px 16px;
 }
 
+button:hover{
+    background-color: #ccc;
+}
+
+a:visited{
+    color: black;
+}
+
 footer{
     background-color: #f1f1f1;
     text-align: center;
     padding: 32px;
+}
+
+.fa-github{
+    font-size:38px;
+    padding: 1%;
+}
+
+.fa-linkedin{
+    font-size:30px;
+    color: #0A66C2;
+    padding: 1%;
+}
+
+.fa-twitter{
+    font-size: 30px;
+    color: #00acee;
+    padding: 1%;
+}
+
+.fa-envelope{
+    font-size: 30px;
+    color: #EA4335;
+    padding: 1%;
 }
